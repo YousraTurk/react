@@ -1,0 +1,49 @@
+.divbtns {
+  background-color: rgb(194, 191, 191);
+  border-radius: 0px;
+}
+.buton {
+  margin-top: 25rem;
+}
+.btnimg {
+  margin-top: 240rem;
+}
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#footer {
+  background: #d3d4d4 !important;
+}
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: black;
+}
+#footer a {
+  color: black;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+@media screen and (max-width: 992px) {
+  .buton {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
